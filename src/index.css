@@ -1,0 +1,135 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;;
+}
+.hero{
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 2em;
+ 
+}
+.arrow{
+  border: 1px dotted #98A2B3;
+  padding: 1px;
+  position: absolute;
+  border-radius: 50% ;
+  left: 60em;
+  top: -1em;
+}
+.menu{
+  display: none;
+}
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#profile_img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#slack {
+ position: relative;
+ top: 0.5em;
+ color: #101828;
+ font-size: 26px;
+ font-weight: bolder;
+ display: none;
+}
+.style-a-tag{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.style-a-tag a{
+  background-color: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 60em;
+  max-width: 100%;
+  padding: 15px 0;
+  color: #101828;
+  font-size:  20px; 
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.style-logo{
+  margin-top: 35px;
+}
+.style-logo img{
+  width: 20px;
+
+}
+footer{
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+  border-top: 2px solid #EAECF0;
+}
+.dot{
+  color: #E7332B;
+  font-size: 35px;
+}
+footer h3{
+  font-size: 20px;
+  columns: #000000;
+}
+footer h4{
+  color: #667085;
+  line-height: 20px;
+}
+
+@media (max-width:785px) {
+.menu{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  left: 10em;
+} 
+.arrow{
+  display: none;
+} 
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+footer h4, h3, img{
+  display: none; 
+}
+} 
