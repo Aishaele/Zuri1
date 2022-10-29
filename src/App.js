@@ -18,12 +18,12 @@ function App() {
         </div>
         <div className="style-a-tag">
           
-            <button><a id='Twitter' href="https://twitter.com/AishaeleA">Twitter Link</a></button>
-            <button><a id='books' href="https://training.zuri.team">Zuri Team</a></button>
-            <button><a id='Zuri Books' href="http://books.zuri.team">Zuri Book</a></button>
-            <button> <a id='book_python' href="https://books.zuri.team/python-for-beginners?ref_id=nanaaishaeleamodu">Python Books</a></button>
+            <button><a id='twitter' href="https://twitter.com/AishaeleA">Twitter Link</a></button>
+            <button><a id='‘btn__zuri' href="https://training.zuri.team">Zuri Team</a></button>
+            <button><a id='‘books' href="http://books.zuri.team">Zuri Book</a></button>
+            <button> <a id='book__python' href="https://books.zuri.team/python-for-beginners?ref_id=nanaaishaeleamodu">Python Books</a></button>
             <button><a id='pitch' href="https://background.zuri.team">Background Check for Coders</a></button>
-            <button> <a id='book_design' href="https://bookszuri.team/design-rules">Design Books</a></button>
+            <button> <a id= 'book__design' href="https://bookszuri.team/design-rules">Design Books</a></button>
         </div>
         <div className="style-logo">
             <img className="" src= {colors} alt=""/>
