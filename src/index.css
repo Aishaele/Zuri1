@@ -17,7 +17,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
   top: 2em;
 }
 .arrow{
@@ -105,9 +104,8 @@ footer h4{
 }
 
 .contact-div{
-  padding:  2% 20%;
+  margin: 2% 25%;
   width: 100%;
-  position: absolute;
 }
 .contact-div h1 {
   color: #101828;
@@ -121,7 +119,7 @@ footer h4{
 .F-L{
   display: flex;
   width: 100%;
-  column-gap: 10px;
+  column-gap: 24px;
 }
 .F-L input{
   padding: 10px 100px;
@@ -149,7 +147,7 @@ footer h4{
   color: #344054;
 }
 #message{
-  padding: 10px 255px;
+  padding: 10px 250px;
   margin-top: 10px;
   border-radius: 5px;
   border: 1px solid #D0D5DD;
@@ -177,9 +175,9 @@ input .checkbox{
   background-color: #1570EF;
   border: none;
   border-radius: 5px;
-  /* width: 49%; */
-  padding: 20px 340px;
-
+  width: 49%;
+  padding: 20px ;
+  
 }
 @media screen and (max-width: 768px) {
 .menu{
@@ -209,23 +207,37 @@ footer{
    display: flex;
    flex-direction: column;
    width: 100%;
+   margin: 64px 16px;
 }
 .contact-div p{
   font-size: 15px;
   width: 70%;
-  margin-top: 5px;
+  margin-top: 3px;
 }
 .F-L{
   display: flex;
   flex-direction: column;
 }
 .F-L input{
-  padding:  10px 70px;
+  padding:  7px 30px;
 }
 #email{
-  padding: 10px 70px;
+  padding: 7px 30px;
 }
 #message{
-  padding: 10px 40px;
+  padding: 1px 10px;
+}
+#message::placeholder{
+  left: 1em;
+}
+#email::placeholder{
+  left: -1.5em;
+}
+#message::placeholder{
+  left: 0.3em;
+}
+#btn_btn{
+  padding: 10px;
+  width: 70%;
 }
 } 

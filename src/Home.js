@@ -32,11 +32,7 @@ const Home = () => {
             <img className="" src= {colors} alt=""/>
             <img src={github} alt=""/>
         </div>
-        <footer>
-            <h3>Zuri<span className="dot">.</span>Internship</h3>
-            <h4> HNG Internship 9 Frontend Task</h4>
-            <img src={foo} alt=""/>
-        </footer>
+        
         </div>
 </div>
   )

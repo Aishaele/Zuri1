@@ -33,6 +33,8 @@ const Contact = () => {
             </div>
 
         <button id='btn_btn'> Send message</button>
+
+        
     </div>
   )
 }
