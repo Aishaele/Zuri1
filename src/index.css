@@ -103,8 +103,32 @@ footer h4{
   color: #667085;
   line-height: 20px;
 }
-@media screen and (max-width: 768px) {
 
+.contact-div{
+  padding:  5% 20%;
+  width: 100%;
+}
+.contact-div h1 {
+  color: #101828;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-div p{
+  color: #475467;
+  font-size: 20px;
+}
+.F-L{
+  display: flex;
+  width: 100%;
+  column-gap: 10px;
+}
+.F-L label{
+  margin-top: 10px;
+}
+.F-L input{
+  padding: 5px 100px;
+}
+@media screen and (max-width: 768px) {
 .menu{
   display: flex;
   justify-content: flex-end;
