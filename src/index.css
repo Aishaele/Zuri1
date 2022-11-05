@@ -105,8 +105,9 @@ footer h4{
 }
 
 .contact-div{
-  padding:  5% 20%;
+  padding:  2% 20%;
   width: 100%;
+  position: absolute;
 }
 .contact-div h1 {
   color: #101828;
@@ -122,11 +123,63 @@ footer h4{
   width: 100%;
   column-gap: 10px;
 }
-.F-L label{
-  margin-top: 10px;
-}
 .F-L input{
-  padding: 5px 100px;
+  padding: 10px 100px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #D0D5DD;
+}
+.F-L label{
+  color: #344054;
+}
+.email{
+  margin: 20px 0px 20px 0px;
+}
+.email label{
+  color: #344054;
+}
+#email{
+  padding: 10px 290px;
+  margin-top:10px;
+  border-radius: 5px;
+  border: 1px solid #D0D5DD;
+}
+.message label{
+  margin: 20px 0px 20px 0px;
+  color: #344054;
+}
+#message{
+  padding: 10px 255px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #D0D5DD;
+}
+#message::placeholder{
+  position: relative;
+  left: -18em;
+}
+#email::placeholder{
+  position: relative;
+  left: -21em;
+}
+input::placeholder{
+  position: relative;
+  left: -7em;
+}
+.frame{
+  display: flex;
+}
+input .checkbox{
+  padding: 20px;
+  color: #D0D5DD;
+}
+#btn_btn{
+  background-color: #1570EF;
+  border: none;
+  border-radius: 5px;
+  /* width: 49%; */
+  padding: 20px 340px;
+
 }
 @media screen and (max-width: 768px) {
 .menu{
@@ -152,5 +205,27 @@ padding: 20px 50px;
 footer{
   display: block;
 }
-
+.contact-div{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.contact-div p{
+  font-size: 15px;
+  width: 70%;
+  margin-top: 5px;
+}
+.F-L{
+  display: flex;
+  flex-direction: column;
+}
+.F-L input{
+  padding:  10px 70px;
+}
+#email{
+  padding: 10px 70px;
+}
+#message{
+  padding: 10px 40px;
+}
 } 
