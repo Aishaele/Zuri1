@@ -207,7 +207,7 @@ footer{
    display: flex;
    flex-direction: column;
    width: 100%;
-   margin: 64px 16px;
+   margin: 10% 20%;
 }
 .contact-div p{
   font-size: 15px;

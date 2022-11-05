@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='contact-div'>
         <h1> Contact Me</h1>
         <p> Hi there, contact me to ask me about anything you have in mind.</p>
-
+        
         <form action="form" className="form">
             <div className="F-L">
                 <div className="style-input">
