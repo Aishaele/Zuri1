@@ -17,15 +17,15 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  top: 2em;
+  margin-top: 20px;
 }
 .arrow{
   border: 1px dotted #98A2B3;
   padding: 1px;
   position: absolute;
   border-radius: 50% ;
-  left: 40em;
-  top: -1em;
+  left: 60em;
+  top: 1em;
 }
 .menu{
   display: none;

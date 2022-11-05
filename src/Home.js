@@ -3,9 +3,6 @@ import arrow from "./arrow.svg"
 import menu from "./menu.svg"
 import colors from "./colors.svg"
 import github from "./github.svg"
-import foo from "./footerimg.svg"
- 
-
 import React from 'react'
 
 const Home = () => {
